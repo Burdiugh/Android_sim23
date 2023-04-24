@@ -31,7 +31,7 @@ namespace Sim23.Controllers
             return Ok(model);
         }
         [HttpPost("create")]
-        public async Task<IActionResult> Create([FromBody] CategoryCreateVM model)
+        public async Task<IActionResult> Create([FromBody] CategoryCreateVM model) 
         {
             try
             {

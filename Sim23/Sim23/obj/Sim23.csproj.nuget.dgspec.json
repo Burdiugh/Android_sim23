@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\burdiugh\\source\\repos\\sim23_Project\\Sim23\\Sim23\\Sim23.csproj": {}
+    "D:\\Education\\projects\\Android_study\\Android_sim23\\Sim23\\Sim23\\Sim23.csproj": {}
   },
   "projects": {
-    "C:\\Users\\burdiugh\\source\\repos\\sim23_Project\\Sim23\\Sim23\\Sim23.csproj": {
+    "D:\\Education\\projects\\Android_study\\Android_sim23\\Sim23\\Sim23\\Sim23.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burdiugh\\source\\repos\\sim23_Project\\Sim23\\Sim23\\Sim23.csproj",
+        "projectUniqueName": "D:\\Education\\projects\\Android_study\\Android_sim23\\Sim23\\Sim23\\Sim23.csproj",
         "projectName": "Sim23",
-        "projectPath": "C:\\Users\\burdiugh\\source\\repos\\sim23_Project\\Sim23\\Sim23\\Sim23.csproj",
-        "packagesPath": "C:\\Users\\burdiugh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burdiugh\\source\\repos\\sim23_Project\\Sim23\\Sim23\\obj\\",
+        "projectPath": "D:\\Education\\projects\\Android_study\\Android_sim23\\Sim23\\Sim23\\Sim23.csproj",
+        "packagesPath": "C:\\Users\\Burdiugh\\.nuget\\packages\\",
+        "outputPath": "D:\\Education\\projects\\Android_study\\Android_sim23\\Sim23\\Sim23\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\burdiugh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Burdiugh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -99,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
