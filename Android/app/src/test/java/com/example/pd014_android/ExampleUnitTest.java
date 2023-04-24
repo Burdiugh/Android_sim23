@@ -1,4 +1,4 @@
-package com.example.sim23_android;
+package com.example.pd014_android;
 
 import org.junit.Test;
 
