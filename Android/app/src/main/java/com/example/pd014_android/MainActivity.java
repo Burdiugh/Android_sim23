@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
@@ -45,7 +46,7 @@ public class MainActivity extends BaseActivity  {
                     @Override
                     public void onResponse(Call<List<CategoryItemDTO>> call, Response<List<CategoryItemDTO>> response) {
                         List<CategoryItemDTO> list = response.body();
-                        adapter = new CategoriesAdapter(list);
+                        adapter = new CategoriesAdapter(list, MainActivity.this::onClickEditButton);
                         recyclerView.setAdapter(adapter);
                     }
 
@@ -54,5 +55,9 @@ public class MainActivity extends BaseActivity  {
 
                     }
                 });
+    }
+
+    private void onClickEditButton(CategoryItemDTO category) {
+        Toast.makeText(this, "Ми редагуємо "+ category.getId(), Toast.LENGTH_SHORT).show();
     }
 }

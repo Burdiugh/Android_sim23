@@ -98,3 +98,16 @@ D:\Education\projects\Android_study\Android_sim23\Sim23\Sim23\obj\Debug\net7.0\r
 D:\Education\projects\Android_study\Android_sim23\Sim23\Sim23\obj\Debug\net7.0\Sim23.pdb
 D:\Education\projects\Android_study\Android_sim23\Sim23\Sim23\obj\Debug\net7.0\Sim23.genruntimeconfig.cache
 D:\Education\projects\Android_study\Android_sim23\Sim23\Sim23\obj\Debug\net7.0\ref\Sim23.dll
+D:\Education\projects\Android_study\Android_sim23\Sim23\Sim23\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Education\projects\Android_study\Android_sim23\Sim23\Sim23\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Education\projects\Android_study\Android_sim23\Sim23\Sim23\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Education\projects\Android_study\Android_sim23\Sim23\Sim23\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\Education\projects\Android_study\Android_sim23\Sim23\Sim23\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Education\projects\Android_study\Android_sim23\Sim23\Sim23\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\Education\projects\Android_study\Android_sim23\Sim23\Sim23\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Education\projects\Android_study\Android_sim23\Sim23\Sim23\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Education\projects\Android_study\Android_sim23\Sim23\Sim23\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Education\projects\Android_study\Android_sim23\Sim23\Sim23\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Education\projects\Android_study\Android_sim23\Sim23\Sim23\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Education\projects\Android_study\Android_sim23\Sim23\Sim23\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Education\projects\Android_study\Android_sim23\Sim23\Sim23\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

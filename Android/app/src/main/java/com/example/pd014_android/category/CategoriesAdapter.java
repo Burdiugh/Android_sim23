@@ -3,6 +3,7 @@ package com.example.pd014_android.category;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -19,9 +20,11 @@ import java.util.List;
 
 public class CategoriesAdapter extends RecyclerView.Adapter<CategoryCardViewHolder> {
     private List<CategoryItemDTO> categories;
+    private final OnItemClickListener editListener;
 
-    public CategoriesAdapter(List<CategoryItemDTO> categories) {
+    public CategoriesAdapter(List<CategoryItemDTO> categories, OnItemClickListener editListener) {
         this.categories = categories;
+        this.editListener = editListener;
     }
 
     @NonNull
@@ -43,6 +46,12 @@ public class CategoriesAdapter extends RecyclerView.Adapter<CategoryCardViewHold
                     .load(url)
                     .apply(new RequestOptions().override(600))
                     .into(holder.categoryImage);
+            holder.btnCategoryEdit.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    editListener.OnItemClick(cat);
+                }
+            });
         }
 
     }
