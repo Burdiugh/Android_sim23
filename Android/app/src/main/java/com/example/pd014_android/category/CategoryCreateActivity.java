@@ -1,7 +1,5 @@
 package com.example.pd014_android.category;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
@@ -19,7 +17,7 @@ import com.example.pd014_android.BaseActivity;
 import com.example.pd014_android.ChangeImageActivity;
 import com.example.pd014_android.MainActivity;
 import com.example.pd014_android.R;
-import com.example.pd014_android.dto.category.CategoryCreateDTO;
+import com.example.pd014_android.dto.dto.category.CategoryCreateDTO;
 import com.example.pd014_android.service.CategoryNetwork;
 import com.example.pd014_android.utils.CommonUtils;
 import com.google.android.material.textfield.TextInputEditText;

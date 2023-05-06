@@ -1,19 +1,15 @@
 package com.example.pd014_android;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.RequestOptions;
 import com.example.pd014_android.category.CategoriesAdapter;
-import com.example.pd014_android.dto.category.CategoryItemDTO;
-import com.example.pd014_android.service.CategoryNetwork;
+import com.example.pd014_android.dto.dto.category.CategoryItemDTO;
+import com.example.pd014_android.service.ApplicationNetwork;
 
 import java.util.List;
 
@@ -38,7 +34,7 @@ public class MainActivity extends BaseActivity  {
     }
 
     void requestServer() {
-        CategoryNetwork
+        ApplicationNetwork
                 .getInstance()
                 .getJsonApi()
                 .list()

@@ -7,6 +7,7 @@ import android.view.MenuItem;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.pd014_android.account.RegisterActivity;
 import com.example.pd014_android.category.CategoryCreateActivity;
 import com.example.pd014_android.utils.CommonUtils;
 
@@ -35,6 +36,16 @@ public class BaseActivity extends AppCompatActivity {
                 }
                 return true;
             }
+            case R.id.m_register:
+                try {
+                    intent = new Intent(BaseActivity.this, RegisterActivity.class);
+                    startActivity(intent);
+                    finish();
+                }
+                catch(Exception ex) {
+                    System.out.println("---Problem "+ ex.getMessage());
+                }
+                return true;
             case R.id.m_create: {
                 try {
                     intent = new Intent(BaseActivity.this, CategoryCreateActivity.class);

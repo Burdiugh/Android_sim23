@@ -1,4 +1,4 @@
-package com.example.pd014_android.dto.category;
+package com.example.pd014_android.dto.dto.category;
 
 public class CategoryCreateDTO {
 

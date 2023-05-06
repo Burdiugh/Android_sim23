@@ -5,8 +5,8 @@ import retrofit2.http.Body;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
 
-import com.example.pd014_android.dto.category.CategoryCreateDTO;
-import com.example.pd014_android.dto.category.CategoryItemDTO;
+import com.example.pd014_android.dto.dto.category.CategoryCreateDTO;
+import com.example.pd014_android.dto.dto.category.CategoryItemDTO;
 
 import java.util.List;
 

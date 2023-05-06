@@ -3,7 +3,6 @@ package com.example.pd014_android.category;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -13,7 +12,7 @@ import com.bumptech.glide.request.RequestOptions;
 import com.example.pd014_android.R;
 import com.example.pd014_android.application.HomeApplication;
 import com.example.pd014_android.constants.Urls;
-import com.example.pd014_android.dto.category.CategoryItemDTO;
+import com.example.pd014_android.dto.dto.category.CategoryItemDTO;
 
 
 import java.util.List;
